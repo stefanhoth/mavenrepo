@@ -36,8 +36,8 @@ Open your `pom.xml` and add the following lines for our example. Of course you h
 	 
 	    	<repositories>
 			<repository>
-				<id>YOURUSERNAME-snapshots</id>
-				<url>https://raw.github.com/YOURUSERNAME/mavenrepo/master/snapshots</url>
+				<id>stefanhoth-snapshots</id>
+				<url>https://raw.github.com/stefanhoth/mavenrepo/master/snapshots</url>
 				<releases>
 					<enabled>false</enabled>
 					<updatepolicy>always</updatepolicy>
@@ -50,7 +50,7 @@ Open your `pom.xml` and add the following lines for our example. Of course you h
 				</snapshots>
 			</repository>
 			<repository>
-				<id>YOURUSERNAME-releases</id>
+				<id>stefanhoth-releases</id>
 				<releases>
 					<enabled>true</enabled>
 					<updatepolicy>always</updatepolicy>
@@ -61,7 +61,7 @@ Open your `pom.xml` and add the following lines for our example. Of course you h
 					<updatepolicy>always</updatepolicy>
 					<checksumpolicy>warn</checksumpolicy>
 				</snapshots>
-				<url>https://raw.github.com/YOURUSERNAME/mavenrepo/master/releases</url>
+				<url>https://raw.github.com/stefanhoth/mavenrepo/master/releases</url>
 			</repository>
 		</repositories>
 	</project>
